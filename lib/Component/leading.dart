@@ -26,7 +26,7 @@ class CustomLeading extends StatelessWidget implements PreferredSizeWidget {
           },
         ),
       ],
-      backgroundColor: Colors.white,
+      backgroundColor: Color(0xFF92E6A7),
       foregroundColor: Colors.black,
       elevation: 2,
     );
