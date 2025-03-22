@@ -1,0 +1,2 @@
+C:/Users/dcbc0/Documents/GitHub/VHack-app/android/app/.cxx/Debug/2p1j3c46/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/dcbc0/Documents/GitHub/VHack-app/android/app/.cxx/Debug/2p1j3c46/arm64-v8a/CMakeFiles/rebuild_cache.dir
