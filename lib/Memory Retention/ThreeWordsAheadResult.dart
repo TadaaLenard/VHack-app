@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vhackapp/Component/leading.dart'; 
 import 'MemoryRetentionHomePage.dart';
+import 'package:vhackapp/Component/navbutton.dart';
 
 class ThreeWordsAheadResult extends StatelessWidget {
   const ThreeWordsAheadResult({super.key});
@@ -25,30 +26,12 @@ class ThreeWordsAheadResult extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 32), 
-          GestureDetector(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const MemoryRetentionHomePage()),
-              );
-            },
-            child: Container(
-              padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 32),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(16),
-                border: Border.all(color: Colors.black, width: 3),
-              ),
-              child: const Text(
-                'Return',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-          ),
+          
+          const Center(
+            child: NavigationButton(
+              text: 'Return',
+              destination: MemoryRetentionHomePage(),
+          ))
         ],
       ),
     );
