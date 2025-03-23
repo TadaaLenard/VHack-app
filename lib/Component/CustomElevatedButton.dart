@@ -15,17 +15,17 @@ class CustomElevatedButton extends StatelessWidget {
     return ElevatedButton(
       onPressed: onPressed,
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.white, // Button background color
-        foregroundColor: const Color(0xFF10451D), // Text color
+        backgroundColor: Colors.white, 
+        foregroundColor: const Color(0xFF10451D), 
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(10), // Rounded corners
+          borderRadius: BorderRadius.circular(10), 
           side: const BorderSide(
-            color: Color(0xFF10451D), // Border color
-            width: 3, // Border thickness
+            color: Color(0xFF10451D), 
+            width: 3, 
           ),
         ),
-        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12), // Button padding
-        elevation: 5, // Shadow effect
+        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12), 
+        elevation: 5, 
       ),
       child: Text(
         text,

@@ -57,6 +57,8 @@ class EditProfile extends StatelessWidget {
                     title: 'Emergency Contact',
                     value: '+601987654321',
                   ),
+                  SizedBox(height: 12),
+
                 ],
               ),
             ),
