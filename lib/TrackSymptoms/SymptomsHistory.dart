@@ -7,7 +7,7 @@ class SymptomsHistory extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomLeading(title: 'Track Symptoms'),
+      appBar: const CustomLeading(title: 'History'),
       body: Expanded(
         child: Padding(
           padding:EdgeInsets.all(16), 

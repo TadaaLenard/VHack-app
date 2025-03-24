@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:vhackapp/Component/leading.dart';
 
-class RecommendedActions extends StatelessWidget {
-  const RecommendedActions({super.key});
+class DiabetesRecommendation extends StatelessWidget {
+  const DiabetesRecommendation({super.key});
 
   @override
   Widget build(BuildContext context) {
     List<String> actions = [
-      'Drink plenty of water',
-      'Get enough rest',
-      'Track temperature every four hours',
-      'See a doctor if symptoms worsen or fever persists after two days',
+      'Regular physical activity',
+      'Focus on a balanced diet',
+      'Regular monitoring of blood glucose levels',
+      'Adhere to any prescribed medications',
     ];
     return Scaffold(
-      appBar: const CustomLeading(title: 'Track Symptoms'),
+      appBar: const CustomLeading(title: 'Diabetes Monitor'),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(

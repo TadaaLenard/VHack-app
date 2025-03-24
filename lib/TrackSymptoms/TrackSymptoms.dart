@@ -57,7 +57,6 @@ class _TrackSymptomsState extends State<TrackSymptoms> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    // Dynamic title
                     Text(
                       'Symptoms',
                       style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
@@ -65,7 +64,6 @@ class _TrackSymptomsState extends State<TrackSymptoms> {
 
                     const Divider(thickness: 2, color: Color.fromARGB(255, 52, 47, 47)),
 
-                    // Dynamic prompt text
                     TextField(
                       controller: _symptomController,
                       decoration: InputDecoration(

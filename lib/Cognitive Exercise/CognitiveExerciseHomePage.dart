@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vhackapp/Cognitive%20Exercise/Sudoku.dart';
 import 'package:vhackapp/Component/leading.dart';
-import 'Sudoku.dart';
 import 'package:vhackapp/Component/FeatureBox.dart';
 
 class CognitiveExerciseHomePage extends StatelessWidget {
