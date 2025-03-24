@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:vhackapp/Component/navbutton.dart';
 import 'package:vhackapp/Component/userinput.dart';
-import 'package:vhackapp/signup.dart';
+import 'package:vhackapp/login.dart';
 
-class loginScreen extends StatefulWidget {
-  const loginScreen({super.key});
+class signupScreen extends StatefulWidget {
+  const signupScreen({super.key});
 
   @override
-  State<loginScreen> createState() => _loginScreenState();
+  State<signupScreen> createState() => _signupScreenState();
 }
 
-class _loginScreenState extends State<loginScreen> {
+class _signupScreenState extends State<signupScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,6 +45,15 @@ class _loginScreenState extends State<loginScreen> {
               ),
             ),
             CustomTextField(
+              label: "Username",
+              hintText: "Enter your username...",
+              width: 300,
+              onChanged: (value) {
+                print("User input: $value");
+              },
+            ),
+            const SizedBox(height: 20),
+            CustomTextField(
               label: "Email",
               hintText: "Enter your email...",
               width: 300,
@@ -63,7 +72,7 @@ class _loginScreenState extends State<loginScreen> {
             ),
             const SizedBox(height: 20),
             const NavigationButton(
-              text: "Log In",
+              text: "Register",
             ),
             const SizedBox(height: 80),
             const Text(
@@ -76,8 +85,8 @@ class _loginScreenState extends State<loginScreen> {
             ),
             const SizedBox(height: 10),
             const NavigationButton(
-              text: "Sign Up",
-              destination: signupScreen(),
+              text: "Log in",
+              destination: loginScreen(),
             ),
             const SizedBox(height: 40),
           ],
