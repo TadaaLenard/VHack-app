@@ -65,7 +65,7 @@ class DisplayOKUCertificate extends StatelessWidget {
                       'Delete',
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        fontSize: 16,
+                        fontSize: 24,
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
                         

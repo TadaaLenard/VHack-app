@@ -11,7 +11,7 @@ class HeartRateMonitor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      appBar: const CustomLeading(title: 'Diabetes Monitor'),
+      appBar: const CustomLeading(title: 'Heart Rate Monitor'),
       body: Expanded(
         child: Padding(
           padding: EdgeInsets.all(16),
