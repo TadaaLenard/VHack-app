@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:vhackapp/Component/HomePageLeading.dart';
 import 'Component/ProfileBox.dart'; 
-import 'Component/leading.dart'; 
 import 'Component/CustomElevatedButton.dart';
 
 class EditProfile extends StatelessWidget {
@@ -9,7 +9,7 @@ class EditProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomLeading(title: 'Edit Profile'),
+      appBar: const HomePageLeading(title: 'Edit Profile'),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(

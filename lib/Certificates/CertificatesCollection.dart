@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vhackapp/Component/CustomElevatedButton.dart';
-import 'package:vhackapp/Component/leading.dart';
+import 'package:vhackapp/Component/HomePageLeading.dart';
 import 'DisplayCertificate.dart';
 import 'DisplayOKUCertificates.dart';
 
@@ -10,7 +10,7 @@ class CertificateCollection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomLeading(title: 'Certificates and Reports'),
+      appBar: const HomePageLeading(title: 'Certificates and Reports'),
       body: Padding(
         padding: EdgeInsets.symmetric(vertical: 16),
         child: Column(

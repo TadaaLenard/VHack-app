@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:vhackapp/Component/HomePageLeading.dart';
 import 'SpecialistRegistration.dart';
-import 'package:vhackapp/Component/leading.dart';
 import 'package:vhackapp/Component/CustomElevatedButton.dart';
 
 class SpecialistNotRegistered extends StatelessWidget {
@@ -9,7 +9,7 @@ class SpecialistNotRegistered extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomLeading(title: 'Specialist Settings'),
+      appBar: const HomePageLeading(title: 'Specialist Settings'),
       body: Padding(
         padding: EdgeInsets.all(16),
         child: Center(
